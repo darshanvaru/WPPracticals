@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>Book Purchase Form</title>
+</head>
+<body>
+    <h2>Book Purchase Form</h2>
+    <form action="#" method="post">
+        <label>Name:</label>
+        <input type="text" name="name" required><br><br>
+
+        <label>Address:</label>
+        <textarea name="address" rows="3" required></textarea><br><br>
+
+        <label>Choose Subject of Book:</label><br>
+        <label><input type="radio" name="subject" value="Science"> Science</label>
+        <label><input type="radio" name="subject" value="Fiction"> Fiction</label>
+        <label><input type="radio" name="subject" value="History"> History</label><br><br>
+
+        <label>Favorite Author:</label>
+        <select name="author">
+            <option value="J.K. Rowling">J.K. Rowling</option>
+            <option value="Stephen King" >Stephen King</option>
+            <option value="Dan Brown">Dan Brown</option>
+        </select><br><br>
+
+        <label>Comments on Last Book Read:</label>
+        <textarea name="comments" rows="4"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
